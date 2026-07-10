@@ -13,7 +13,7 @@ def upload_document(payload: DocumentUploadRequest, file: UploadFile | None = No
     document = MedicalDocument(
         title=payload.title,
         document_type=payload.document_type,
-        metadata=payload.metadata,
+        document_metadata=payload.metadata,
         storage_key='uploaded://example',
         extracted_text='OCR and metadata extraction pipeline ready for deployment',
     )

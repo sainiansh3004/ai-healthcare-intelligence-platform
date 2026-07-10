@@ -53,8 +53,10 @@ class DocumentOut(BaseModel):
     id: int
     title: str
     document_type: str
-    metadata: dict[str, Any]
+    document_metadata: dict[str, Any]
     created_at: datetime
+
+    model_config = {'from_attributes': True}
 
 
 class DashboardMetrics(BaseModel):

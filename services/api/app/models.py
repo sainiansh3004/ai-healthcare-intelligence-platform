@@ -70,7 +70,7 @@ class MedicalDocument(Base):
     title: Mapped[str] = mapped_column(String(255), nullable=False)
     document_type: Mapped[str] = mapped_column(String(50), default='unknown')
     storage_key: Mapped[str] = mapped_column(String(500), nullable=False)
-    metadata: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    document_metadata: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
     extracted_text: Mapped[str | None] = mapped_column(Text, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
