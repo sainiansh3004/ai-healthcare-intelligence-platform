@@ -18,6 +18,8 @@ class UserCreate(BaseModel):
 
 
 class UserOut(BaseModel):
+    model_config = {'from_attributes': True}
+
     id: int
     email: EmailStr
     full_name: str
@@ -33,6 +35,8 @@ class ClaimCreate(BaseModel):
 
 
 class ClaimOut(BaseModel):
+    model_config = {'from_attributes': True}
+
     id: int
     claim_number: str
     status: str
