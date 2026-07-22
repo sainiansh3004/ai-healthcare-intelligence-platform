@@ -50,7 +50,7 @@ class ClaimOut(BaseModel):
 class DocumentUploadRequest(BaseModel):
     title: str
     document_type: str = 'unknown'
-    metadata: dict[str, Any] = {}
+    metadata: dict[str, Any] = Field(default_factory=dict)
 
 
 class DocumentOut(BaseModel):
