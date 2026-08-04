@@ -15,12 +15,9 @@ A production-grade monorepo for healthcare document processing, claims intellige
 
 | Service | Description | Live Link |
 |---|---|---|
-| 🖥️ **Web Application Command Center** | Enterprise Healthcare AI Dashboard, Claims Engine, OCR Parser, & RAG Assistant | **[https://rkxtt-2401-4900-88eb-565d-875-a301-b21c-1111.run.pinggy-free.link](https://rkxtt-2401-4900-88eb-565d-875-a301-b21c-1111.run.pinggy-free.link)** |
-| ⚡ **FastAPI Backend & OpenAPI Docs** | REST API endpoints, Claims adjudication rules, & interactive Swagger documentation | **[https://kfsxc-2401-4900-88eb-565d-875-a301-b21c-1111.run.pinggy-free.link/docs](https://kfsxc-2401-4900-88eb-565d-875-a301-b21c-1111.run.pinggy-free.link/docs)** |
+| 🖥️ **Web Application Command Center (Vercel)** | Enterprise Healthcare AI Dashboard, Claims Engine, OCR Parser, & RAG Assistant | **[https://ai-healthcare-intelligence-platform.vercel.app](https://ai-healthcare-intelligence-platform.vercel.app)** |
+| ⚡ **FastAPI Backend & OpenAPI Docs (Render)** | REST API endpoints, Claims adjudication rules, & interactive Swagger documentation | **[https://ai-healthcare-intelligence-platform.onrender.com/docs](https://ai-healthcare-intelligence-platform.onrender.com/docs)** |
 | 💻 **Local Interface** | Local web application server | [http://localhost:3000](http://localhost:3000) |
-
-> [!NOTE]
-> When opening Localtunnel public links (`loca.lt`) for the first time, click **"Click to Continue"** on the Localtunnel splash screen to access the live web application.
 
 ---
 
