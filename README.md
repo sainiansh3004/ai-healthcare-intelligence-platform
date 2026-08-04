@@ -17,7 +17,7 @@ A production-grade monorepo for healthcare document processing, claims intellige
 |---|---|---|
 | 🖥️ **Web Application Command Center (Vercel)** | Enterprise Healthcare AI Dashboard, Claims Engine, OCR Parser, & RAG Assistant | **[https://ai-healthcare-intelligence-platform-eight.vercel.app](https://ai-healthcare-intelligence-platform-eight.vercel.app)** |
 | ⚡ **FastAPI Backend & OpenAPI Docs (Render)** | REST API endpoints, Claims adjudication rules, & interactive Swagger documentation | **[https://ai-healthcare-intelligence-platform.onrender.com/docs](https://ai-healthcare-intelligence-platform.onrender.com/docs)** |
-| 💻 **Local Interface** | Local web application server | [http://localhost:3000](http://localhost:3000) |
+| 💻 **Local Interface** | Local web application server | [http://localhost:3000](http://localhost:3000) / [http://localhost:3001](http://localhost:3001) |
 
 ---
 
