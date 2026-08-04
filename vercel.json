@@ -1,5 +1,9 @@
 {
-  "buildCommand": "cd services/frontend && npm install && npm run build",
-  "outputDirectory": "services/frontend/.next",
-  "framework": "nextjs"
+  "version": 2,
+  "builds": [
+    {
+      "src": "services/frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ]
 }

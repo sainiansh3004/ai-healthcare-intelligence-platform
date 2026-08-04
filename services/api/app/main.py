@@ -33,3 +33,8 @@ app.include_router(auth_router, prefix=settings.api_v1_prefix)
 app.include_router(claims_router, prefix=settings.api_v1_prefix)
 app.include_router(documents_router, prefix=settings.api_v1_prefix)
 app.include_router(analytics_router, prefix=settings.api_v1_prefix)
+
+@app.get('/')
+def root():
+    return {"status": "ok", "message": "AI Healthcare Intelligence API"}
+
