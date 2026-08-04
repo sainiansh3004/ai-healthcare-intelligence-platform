@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     app_name: str = 'AI Healthcare Intelligence Platform'
     api_v1_prefix: str = '/api/v1'
     debug: bool = False
-    database_url: str = 'postgresql+psycopg://healthcare:healthcare@localhost:5432/healthcare'
+    database_url: str = 'sqlite:///./healthcare.db'
     redis_url: str = 'redis://localhost:6379/0'
     jwt_secret: str = 'change-me'
     jwt_algorithm: str = 'HS256'

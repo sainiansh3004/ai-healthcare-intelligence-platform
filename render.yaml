@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-healthcare-api
+    env: python
+    rootDir: services/api
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: DATABASE_URL
+        value: sqlite:///./healthcare.db
+      - key: SECRET_KEY
+        generateValue: true

@@ -8,7 +8,10 @@ from app.routes.claims import router as claims_router
 from app.routes.documents import router as documents_router
 from app.routes.analytics import router as analytics_router
 
+from app.database import init_db
+
 settings = get_settings()
+init_db()
 
 app = FastAPI(
     title=settings.app_name,
