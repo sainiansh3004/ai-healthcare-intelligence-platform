@@ -5,7 +5,7 @@ A modern full-stack healthcare platform built using Next.js, designed to deliver
 ---
 
 ## 🚀 Live Demo
-👉 https://ai-healthcare-intelligence-platform-eight.vercel.app
+👉 https://ai-healthcare-intelligence-platform.vercel.app
 
 ---
 
